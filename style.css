@@ -16,15 +16,6 @@ body{
     border-width: 0.3em;
 }
 
-.menu{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    gap: 2em;
-    padding: 3em 2em;
-}
-
 .button-menu{
     display: flex;
     gap: 1em;
