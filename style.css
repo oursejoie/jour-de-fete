@@ -11,9 +11,15 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    border-style: solid;
-    border-color:#FFC754;
-    border-width: 0.3em;
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 2em;
+    padding: 3em 2em;
 }
 
 .button-menu{
@@ -33,7 +39,7 @@ body{
     border-width: 0.3em;
     border-color: #FFC754;
     border-radius: 2em;
-    padding: 4em 3em;
+    padding: 3em 2em;
     box-shadow: 0px 0px 5px 1px #888888;;
 }
 
