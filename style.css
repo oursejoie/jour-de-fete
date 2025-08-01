@@ -10,12 +10,12 @@ body{
     background-color: #FFDD79;
     display: flex;
     align-items: center;
+    justify-content: center;
     border-width: 0.3em;
 }
 
 .menu{
     align-items: center;
-    justify-content: center;
     gap: 2em;
     padding: 3em 2em;
 }
