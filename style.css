@@ -10,7 +10,7 @@ body{
     background-color: #FFDD79;
     display: flex;
     align-items: center;
-    justify-content: center;
+    border-width: 0.3em;
 }
 
 .menu{
@@ -39,7 +39,7 @@ body{
     border-width: 0.3em;
     border-color: #FFC754;
     border-radius: 2em;
-    padding: 3em 2em;
+    padding: 4em 3em;
     box-shadow: 0px 0px 5px 1px #888888;;
 }
 
