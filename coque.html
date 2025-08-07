@@ -30,6 +30,21 @@
 
     <audio id="audio" src="done.mp3"></audio>
 
+    <div class="popup" id="popup">
+        <img src="poussin-coque.png" height="200">
+
+        <h1 style="margin-top: 20px;">c'est prêt !</h1>
+        
+        <div class="menu" >
+            <div class="button-menu">
+            <a href="index.html" style="display: block; margin: 8px auto;">
+                <button>menu</button>
+            </a>
+            </div>
+        </div>
+
+    </div>
+
 
 
     <script>
@@ -39,6 +54,7 @@
         const timer = document.getElementById("timer");
 
         const audio = document.getElementById("audio")
+        const popup = document.getElementById("popup")
 
 let timeLeft = 180;
 let interval;
@@ -62,6 +78,7 @@ const startTimer = () => {
         if(timeLeft===0){
             clearInterval(interval);
             audio.play()
+            popup.style.display = "flex"
             //window.location.href = "prêt.html";
         }
     }, 1000)
